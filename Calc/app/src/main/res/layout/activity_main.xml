@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:hint="0"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:hint="0"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/btn_plus"
+                android:layout_width="93dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:text="+"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/btn_minus"
+                android:layout_width="94dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:text="-"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/btn_multi"
+                android:layout_width="91dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:text="*"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/btn_div"
+                android:layout_width="92dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:text="/"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:onClick="buttonClick1"
+        android:text="Second Activity"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="Example BroadcastReceiver" />
+
+    <Button
+        android:id="@+id/btn_showBroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="Show Broadcast"
+        android:textSize="10sp" />
+
+</LinearLayout>
