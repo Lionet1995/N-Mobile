@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <declare-styleable name="ItemRating">
+    <attr name="emptyDog" format="integer"/>
+    <attr name="filledDog" format="integer|reference"/>
+    <attr name="highlightedDog" format="integer|reference"/>
+    <attr name="numberItem" format="integer"/>
+  </declare-styleable>
+</resources> 
